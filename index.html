@@ -50,9 +50,15 @@
         <div class="popup-content">
             <h2>Login</h2>
             <form onsubmit="validateLogin(event)">
-                <input type="text" id="username" placeholder="Nhập tên của bạn">
-                <input type="password" id="password" placeholder="Nhập mật khẩu">
+                <div class="formWrapper">
+                <div class="textInputWrapper">
+                <input type="text" id ="username"placeholder="Nhập tên đăng nhập"class="textInput">
+                </div>
+                <div class="textInputWrapper">
+                    <input type="password" id="password" placeholder="Nhập mật khẩu"class="textInput">
+                </div>
                 <button type="submit">Đăng nhập</button>
+                </div>
             </form>
             <p id="loading-text" style="display: none; color: white; margin-top: 10px;">Đợi tí nha:33</p>
         </div>
